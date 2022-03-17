@@ -2,7 +2,7 @@
     "name": "06-webserver",
     "version": "1.0.0",
     "description": "",
-    "main": "app.js",
+    "main": "server.js",
     "scripts": {
         "start": "node server.js",
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,8 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "express": "^4.16.4",
-        "hbs": "^4.0.1"
+        "express": "^4.17.3",
+        "hbs": "^4.2.0",
+        "nodemon": "^2.0.15"
     }
 }
